@@ -39,14 +39,14 @@ timed in the benchmarks. LinkedList allocates/deallocates in the benchmarks wher
 and allocation/deallocation is part of the timings.
 
 Glossary:
-- IS: IndexSet
-- AL: std.ArrayList
-- LL: std.SinglyLinkedList
-- Empty/full: The data-structure starts out empty/full
-- Fragmented: Either the data-structure has "holes" (empty/invalid indices) or the operations will be performed in the middle of the data-structure
-- Insert/append/pop/iter: The respective operations to be performed
-  (iter alone means we are using the `iterator` interface, while manual_iter means we use a for-loop)
-- [number at the end of the name]: Amount of operations performed *per run*
+- **IS**: IndexSet
+- **AL**: std.ArrayList
+- **LL**: std.SinglyLinkedList
+- **Empty/full**: The data-structure starts out empty/full
+- **Fragmented**: Either the data-structure has "holes" (empty/invalid indices) or the operations will be performed in the middle of the data-structure
+- **Insert/append/pop/iter**: The respective operations to be performed
+  (**iter** alone means we are using the `Iterator` interface, while **manual_iter** means we use a for-loop)
+- **[number at the end of the name]**: Amount of operations performed *per run*
 
 ### IndexSet vs std.ArrayList vs std.SinglyLinkedList
 

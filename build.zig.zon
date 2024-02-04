@@ -1,0 +1,11 @@
+.{
+    .name = "index_set",
+    .version = "0.1.0",
+    .paths = .{""},
+    .dependencies = .{
+       .zbench = .{
+            .url = "https://github.com/Bryysen/zBench/archive/refs/heads/master.tar.gz",
+            .hash = "12204a84224a00c01fe2dcacbc110bef6a98e27f296ad1d5ea8966c32fd192868d48"
+       },
+    },
+}

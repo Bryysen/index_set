@@ -1,0 +1,7 @@
+# zig-artifacts
+zig-cache
+zig-out
+docs
+
+# libs
+libs
